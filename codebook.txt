@@ -1,0 +1,185 @@
+HAR (Human Activity Recognition) code book
+
+avg.meanstd.ID -- name of table of results of tidy data for
+HAR results, which average (mean) of results by activity 
+and subject.id.
+
+activity -- A factor variable denoting one of six different 
+activities monitored in subjects. WALKING, WALKING_UPSTAIRS, 
+WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+subject.id -- integer value 1 to 30, denoting which of 30 subjects
+was monitored for the measurement.
+
+
+Time Domain Measurements *
+----------------------------------------------------------------
+
+tBodyAcc.mean.X -- mean of Body Acceleration 
+time domain measurements in X orientation.
+tBodyAcc.mean.Y -- mean of Body Acceleration 
+time domain measurements in Y orientation.
+tBodyAcc.mean.Z -- mean of Body Acceleration 
+time domain measurements in Z orientation.
+
+tBodyAcc.std.X -- standard deviation of Body Acceleration 
+time domain measurements in X orientation.
+tBodyAcc.std.Y -- standard deviation of Body Acceleration 
+time domain measurements in Y orientation.
+tBodyAcc.std.Z -- standard deviation of Body Acceleration 
+time domain measurements in Z orientation.
+
+tGravityAcc.mean.X -- mean of Gravity Acceleration 
+time domain measurements in X orientation.
+tGravityAcc.mean.Y -- mean of Gravity Acceleration 
+time domain measurements in Y orientation.
+tGravityAcc.mean.Z -- mean of Gravity Acceleration 
+time domain measurements in Z orientation.
+
+tGravityAcc.std.X -- standard deviation of Gravity Acceleration 
+time domain measurements in X orientation.
+tGravityAcc.std.Y -- standard deviation of Gravity Acceleration 
+time domain measurements in Y orientation.
+tGravityAcc.std.Z -- standard deviation of Gravity Acceleration 
+time domain measurements in Z orientation.
+
+tBodyAccJerkAcc.mean.X -- mean of Body Jerking Acceleration 
+time domain measurements in X orientation.
+tBodyAccJerkAcc.mean.Y -- mean of Body Jerking Acceleration
+time domain measurements in Y orientation.
+tBodyAccJerkAcc.mean.Z -- mean of Body Jerking Acceleration
+time domain measurements in Z orientation.
+
+tBodyAccJerk.std.X -- standard deviation of Body Jerking Acceleration 
+time domain measurements in X orientation.
+tBodyAccJerk.std.Y -- standard deviation of Body Jerking Acceleration 
+time domain measurements in Y orientation.
+tBodyAccJerk.std.Z -- standard deviation of Body Jerking Acceleration 
+time domain measurements in Z orientation.
+
+tBodyGyro.mean.X -- mean of Body Gyroscope
+time domain measurements in X orientation.
+tBodyGyro.mean.Y -- mean of Body Gyroscope
+time domain measurements in Y orientation.
+tBodyGyro.mean.Z -- mean of Body Gyroscope
+time domain measurements in Z orientation.
+
+tBodyGyro.std.X -- standard deviation of Body Gyroscope 
+time domain measurements in X orientation.
+tBodyGyro.std.Y -- standard deviation of Body Gyroscope 
+time domain measurements in Y orientation.
+tBodyGyro.std.Z -- standard deviation of Body Gyroscope 
+time domain measurements in Z orientation.
+
+tBodyGyroJerk.mean.X -- mean of Body Gyroscope Jerking
+time domain measurements in X orientation.
+tBodyGyroJerk.mean.Y -- mean of Body Gyroscope Jerking
+time domain measurements in Y orientation.
+tBodyGyroJerk.mean.Z -- mean of Body Gyroscope Jerking
+time domain measurements in Z orientation.
+
+tBodyGyroJerk.std.X -- standard deviation of Body Gyroscope Jerking
+time domain measurements in X orientation.
+tBodyGyroJerk.std.Y -- standard deviation of Body Gyroscope Jerking 
+time domain measurements in Y orientation.
+tBodyGyroJerk.std.Z -- standard deviation of Body Gyroscope Jerking 
+time domain measurements in Z orientation.
+
+tBodyAccMag.mean -- mean of Body Acceleration Magnitude
+time domain measurements from all axis orientations.
+tBodyAccMag.std -- standard deviation of Body Acceleration Magnitude 
+time domain measurements from all axis orientations.
+
+tGravityAccMag.mean -- mean of Gravity Acceleration Magnitude
+time domain measurements from all axis orientations.
+tGravityAccMag.std -- standard deviation of Gravity Acceleration Magnitude 
+time domain measurements from all axis orientations.
+
+tBodyAccJerkMag.mean -- mean of Body Acceleration Jerking Magnitude
+time domain measurements from all axis orientations.
+tBodyAccJerkMag.std -- standard deviation of Body Acceleration Jerking Magnitude
+time domain measurements from all axis orientations.
+
+tBodyGyroMag.mean -- mean of Body Gyroscope Magnitude
+time domain measurements from all axis orientations.
+tBodyGyroMag.std -- standard deviation of Body Gyroscope Magnitude 
+time domain measurements from all axis orientations.
+
+tBodyGyroJerkMag.mean -- mean of Body Gyroscope Jerking Magnitude
+time domain measurements from all axis orientations.
+tBodyGyroJerkMag.std -- standard deviation of Body Gyroscope Jerking Magnitude 
+time domain measurements from all axis orientations.
+
+Frequency Domain Measurements *
+------------------------------------------------------------------------------
+fBodyAcc.mean.X -- mean of Body Acceleration 
+frequency domain measurements in X orientation.
+fBodyAcc.mean.Y -- mean of Body Acceleration 
+frequency domain measurements in Y orientation.
+fBodyAcc.mean.Z -- mean of Body Acceleration 
+frequency domain measurements in Z orientation.
+
+fBodyAcc.std.X -- standard deviation of Body Acceleration 
+frequency domain measurements in X orientation.
+fBodyAcc.std.Y -- standard deviation of Body Acceleration 
+frequency domain measurements in Y orientation.
+fBodyAcc.std.Z -- standard deviation of Body Acceleration 
+frequency domain measurements in Z orientation.
+
+fBodyAccJerk.mean.X -- mean of Body Acceleration Jerking
+frequency domain measurements in X orientation.
+fBodyAccJerk.mean.Y -- mean of Body Acceleration Jerking
+frequency domain measurements in Y orientation.
+fBodyAccJerk.mean.Z -- mean of Body Acceleration Jerking
+frequency domain measurements in Z orientation.
+
+fBodyAccJerk.std.X -- standard deviation of Body Acceleration Jerking
+frequency domain measurements in X orientation.
+fBodyAccJerk.std.Y -- standard deviation of Body Acceleration Jerking 
+frequency domain measurements in Y orientation.
+fBodyAccJerk.std.Z -- standard deviation of Body Acceleration Jerking 
+frequency domain measurements in Z orientation.
+
+fBodyGyro.mean.X -- mean of Body Gyroscope 
+frequency domain measurements in X orientation.
+fBodyGyro.mean.Y -- mean of Body Gyroscope 
+frequency domain measurements in Y orientation.
+fBodyGyro.mean.Z -- mean of Body Gyroscope 
+frequency domain measurements in Z orientation.
+
+fBodyGyro.std.X -- standard deviation of Body Gyroscope 
+frequency domain measurements in X orientation.
+fBodyGyro.std.Y -- standard deviation of Body Gyroscope 
+frequency domain measurements in Y orientation.
+fBodyGyro.std.Z -- standard deviation of Body Gyroscope  
+frequency domain measurements in Z orientation.
+
+tBodyAccMag.mean -- mean of Body Acceleration Magnitude
+frequency domain measurements from all axis orientations.
+tBodyAccMag.std -- standard deviation of Body Acceleration Magnitude 
+frequency domain measurements from all axis orientations. 
+
+tfBodyBodyAccJerkMag.mean -- mean of Body Acceleration Jerking Magnitude
+frequency domain measurements from all axis orientations.
+tfBodyBodyAccJerkMag.std -- standard deviation of Body Acceleration Jerking Magnitude 
+frequency domain measurements from all axis orientations. 
+
+tBodyGyroJerkMag.mean -- mean of Body Gyroscope Jerking Magnitude
+frequency domain measurements from all axis orientations.
+tBodyGyroJerkMag.std -- standard deviation of Body Gyroscope Jerking Magnitude 
+frequency domain measurements from all axis orientations.   
+-------------------------------------------------------------------------
+
+* As described in the avg.meanstd.ID desciption, all raw 
+measurements described below were additionally averaged
+by grouping factors of activity and subject.id. 
+
+** All activity features are preceded by t or f, t denotes
+a time domain measurement was sampled, processed, and recorded.
+An f denotes that the measurement was further transformed 
+into the frequency domain for further descriptive information.
+       
+see link for additional info from UCI repository. 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+       
+         
