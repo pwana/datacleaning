@@ -2,22 +2,24 @@
 # Pat Warner
 
 ## Executive Summary: We are given a raw zipped file that contains various measurements
-selected from various HumanActivityRecognition monitors. 
+selected from various HumanActivityRecognition monitors. All files are located
+in github datacleaning repository:
+https://github.com/pwana/datacleaning
 
 * We create a tidy dataset, creating and using the R script, run_analysis.R.
 * The tidy data file is written to a txt file, HARtidy.txt.
 * A codebook, describing the HARtidy.txt file is cretated, codebook.txt.
 
-Comments are shown below for the run_analysis.R script and methodologies.
+Additional run_analysis comments are shown below for the run_analysis.R script and methodologies.
 
-### Methods:
+### R code Methodology:
 
 Our objective is to satisfactorily
 Load and Clean the raw file into a tidy data set. We begin by creating a directory to 
 load the zipped data. We point to the directory and unzip the associated subdirectories and
 files.
 
-### We start the cleaning of data by loading the set of feature and activity labels.
+We start the cleaning of data by loading the set of feature and activity labels.
 We point to paths by pasting directory and files together. We typically can
 set header = FALSE, as none of the files contain heaers. We also want strings 
 for the main HAR.features. However, our activity labels are treated as factors.
@@ -29,8 +31,8 @@ activity.labels files. Our features and activities are now labeled.
 
 Using grepl commands, we can get those files with -mean() and -std()
 in the labels, and select them exclusively.
-
-### Lastly, we use aggregate to subset mean and std variables by the activity and subject IDs.
+Lastly, we use aggregate to subset mean and std variables by the activity and subject IDs.
+The file is written out as a tidy data file, HARtidy.txt.
 
 
 
