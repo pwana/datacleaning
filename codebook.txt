@@ -154,19 +154,19 @@ frequency domain measurements in Y orientation.
 fBodyGyro.std.Z -- standard deviation of Body Gyroscope  
 frequency domain measurements in Z orientation.
 
-tBodyAccMag.mean -- mean of Body Acceleration Magnitude
+fBodyAccMag.mean -- mean of Body Acceleration Magnitude
 frequency domain measurements from all axis orientations.
-tBodyAccMag.std -- standard deviation of Body Acceleration Magnitude 
+fBodyAccMag.std -- standard deviation of Body Acceleration Magnitude 
 frequency domain measurements from all axis orientations. 
 
-tfBodyBodyAccJerkMag.mean -- mean of Body Acceleration Jerking Magnitude
+fBodyBodyAccJerkMag.mean -- mean of Body Acceleration Jerking Magnitude
 frequency domain measurements from all axis orientations.
-tfBodyBodyAccJerkMag.std -- standard deviation of Body Acceleration Jerking Magnitude 
+fBodyBodyAccJerkMag.std -- standard deviation of Body Acceleration Jerking Magnitude 
 frequency domain measurements from all axis orientations. 
 
-tBodyGyroJerkMag.mean -- mean of Body Gyroscope Jerking Magnitude
+fBodyGyroJerkMag.mean -- mean of Body Gyroscope Jerking Magnitude
 frequency domain measurements from all axis orientations.
-tBodyGyroJerkMag.std -- standard deviation of Body Gyroscope Jerking Magnitude 
+fBodyGyroJerkMag.std -- standard deviation of Body Gyroscope Jerking Magnitude 
 frequency domain measurements from all axis orientations.   
 -------------------------------------------------------------------------
 
